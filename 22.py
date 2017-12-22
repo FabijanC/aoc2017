@@ -1,6 +1,6 @@
 from sys import argv
 
-f = open("22h.txt", "r")
+f = open("22.txt", "r")
 lines = [line.strip() for line in f.readlines()]
 f.close()
 
@@ -44,7 +44,7 @@ for _ in range(int(argv[1])):
         elif d == "d":
             d = "r"
             cy += 1
-        elif d == "d":
+        elif d == "r":
             d = "u"
             cx -= 1
 
