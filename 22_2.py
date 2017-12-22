@@ -1,6 +1,6 @@
 from sys import argv
 
-f = open("22h.txt", "r")
+f = open("22.txt", "r")
 lines = [line.strip() for line in f.readlines()]
 f.close()
 
